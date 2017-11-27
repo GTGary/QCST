@@ -1,6 +1,158 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#fcfcfc</color>
+    <!--基础色-->
+    <color name="trans">#00ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_t50">#50000000</color>
+    <!--灰色-->
+    <color name="grey_ff">#fff0e0</color>
+    <color name="grey_fe">#fefefe</color>
+    <color name="grey_f8">#f8f8f8</color>
+    <color name="grey_f2">#f2f2f2</color>
+    <color name="grey_f3">#f3f3f3</color>
+    <color name="grey_f5">#f5f5f5</color>
+    <color name="grey_ee">#eeeeee</color>
+    <color name="grey_d9">#d9d9d9</color>
+    <color name="grey_cc">#cccccc</color>
+    <color name="grey_c8">#c8c7cc</color>
+    <color name="grey_c7">#c7c7c7</color>
+    <color name="grey_c6">#c6c6c6</color>
+    <color name="grey_c0">#c0c0c0</color>
+    <color name="grey_b6">#b6b6b6</color>
+    <color name="grey_af">#afafaf</color>
+    <color name="grey_ae">#aeaeae</color>
+    <color name="grey_99">#999999</color>
+    <color name="grey_96">#969696</color>
+    <color name="grey_8f">#8f8f8f</color>
+    <color name="grey_80">#808080</color>
+
+    <color name="grey_66">#666666</color>
+    <color name="grey_51">#515151</color>
+    <color name="grey_4b">#4b4b4b</color>
+    <color name="grey_40">#404040</color>
+    <color name="grey_33">#333333</color>
+    <color name="grey_2d">#2d2d2d</color>
+    <!--紫色-->
+    <color name="violet_87">#878afa</color>
+    <!--红黄色-->
+    <color name="orange_ff_tc0">#c0ffff00</color>
+    <color name="orange_fc">#fcb187</color>
+    <color name="orange_f3">#f37a6f</color>
+    <color name="orange_f0">#f08300</color>
+    <color name="orange_ff8">#ff8200</color>
+    <color name="orange_ff4">#ff4200</color>
+    <color name="orange_fd">#FD4A2E</color>
+    <color name="orange_e8">#e8380d</color>
+    <color name="orange_ff">#ff0000</color>
+    <color name="orange_81">#816e6a</color>
+
+    <!--绿色-->
+    <color name="green_97">#97c389</color>
+    <color name="green_6a">#6ac987</color>
+    <color name="green_01">#01ce96</color>
+    <color name="green_80">#80ff00</color>
+    <color name="green_00">#00ff00</color>
+    <color name="green_00_tc0">#c000ff00</color>
+    <!--蓝色-->
+    <color name="blue_15">#157dfb</color>
+    <color name="blue_3a">#3a83cf</color>
+    <color name="blue_3ad0">#3a83d0</color>
+    <color name="blue_03">#037BFF</color>
+    <color name="blue_01">#01aef0</color>
+    <color name="blue_00">#00aff0</color>
+    <color name="blue_86">#0086dc</color>
+    <!-- 资产比例环 -->
+    <string-array name="colors">
+        <item>#f15e4c</item>
+        <item>#01aef0</item>
+        <item>#01ce96</item>
+    </string-array>
+
+    <!--主色调-->
+    <color name="app_maintone">@color/orange_ff8</color>
+    <!--常用背景色-->
+    <color name="app_background">@color/grey_f2</color>
+    <!--常用分割线颜色-->
+    <color name="app_line">@color/grey_d9</color>
+    <!--文本颜色-->
+
+    <color name="text_color_f15">#f15e4c</color>
+    <color name="text_color_33">@color/grey_33</color>
+    <color name="text_color_40">@color/grey_40</color>
+    <color name="text_color_44">#444444</color>
+    <color name="text_color_66">@color/grey_66</color>
+    <color name="text_color_80">@color/grey_80</color>
+    <color name="text_color_96">@color/grey_96</color>
+    <color name="text_color_99">@color/grey_99</color>
+    <color name="text_color_d9">@color/grey_d9</color>
+
+    <!--旧的-->
+    <color name="transparent">#00ffffff</color>
+    <color name="grey_light0">#F2F2F2</color>
+    <color name="view_line">#c8c7cc</color>
+    <color name="tab_text_color">#878AFA</color>
+    <color name="yellow">#f08300</color>
+    <color name="white_grey">#666666</color>
+    <color name="grey_dark4">#2d2d2d</color>
+    <color name="green">#97c389</color>
+    <color name="orange">#fcb187</color>
+    <color name="red">#ff4200</color>
+    <color name="xinde">#f2f2f2</color>
+    <color name="app_grey_light">#f2f2f2</color>
+    <color name="big_pic_backg">#88000000</color>
+    <color name="tab_menu_text_color_red">#E8380D</color>
+    <color name="tab_menu_text_color_gray">#515151</color>
+    <color name="tab_account_text_color_gray">#969696</color>
+    <color name="tab_account_listview_item_red">#e8380d</color>
+    <color name="tab_account_listview_item_green">#6ac987</color>
+    <color name="setting_text_color_gary">#aeaeae</color>
+    <color name="setting_person_bg">#fefefe</color>
+    <color name="status_appbar_color">#ff8200</color>
+    <!-- 表格颜色 -->
+    <color name="tablayout_tv_color_left">#F8F8F8</color>
+    <color name="tablayout_bg">#d9d9d9</color>
+    <color name="tab_title_normal_color">#666666</color>
+    <!-- 自定义对话框 -->
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="processing">#01aef0</color>
+    <!-- 为回款资金不再发生变化 -->
+    <color name="recent_no">#01ce96</color>
+    <!-- 为有可能发生变化 -->
+    <color name="recent_yes">#01aef0</color>
+    <!-- 分享app -->
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <!-- 身份证，银行卡扫描 -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_frame">#ff80ff00</color>
+    <color name="viewfinder_laser">#ff00ff00</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_box">#ffafafaf</color>
+    <color name="et_an">#999999</color>
+    <color name="province_line_border">#C7C7C7</color>
+
 </resources>
